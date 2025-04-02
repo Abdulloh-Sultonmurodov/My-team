@@ -188,7 +188,6 @@ body {
     }
 }
 .build-section {
-    max-width: 1400px;
     padding: 140px;
     background-color: #012F34;
     background-image: url("../images/Logo-bg3.svg");
