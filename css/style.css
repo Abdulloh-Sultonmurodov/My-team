@@ -259,6 +259,32 @@ body {
         margin-bottom: 32px;
     }
 }
+@media (max-width:580px) {
+    .build-section {
+        padding: 64px 111px 0 24px;
+    }
+    .build-title {
+        width: 240px;
+        height: 196px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .build-list {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .build-item {
+        width: 327px;
+        flex-direction: column;
+        gap: 48px;
+    }
+    .build-item img {
+        width: 72px;
+        height: 72px;
+        margin: 0 auto;
+    }
+}
 .botton-section {
     background-color: #004047;
     margin: 0 auto;
