@@ -18,7 +18,7 @@
     margin: 0;
 }
 body {
-    font-family: Livvic, sans-serif;
+    font-family: 'Livvic', sans-serif;
     background-color: #014E56;
 }
 .container{
@@ -188,6 +188,7 @@ body {
     }
 }
 .build-section {
+    max-width: 1400px;
     padding: 140px;
     background-color: #012F34;
     background-image: url("../images/Logo-bg3.svg");
@@ -238,6 +239,25 @@ body {
 }
 .build-list {
     margin-top: 70px;
+}
+@media (max-width:768px) {
+    .build-section {
+        background-position: right top;
+    }
+    .build {
+        flex-direction: column;
+    }
+    .build-title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .build-list {
+        padding-left: 0;
+    }
+    .build-line {
+        margin-bottom: 32px;
+    }
 }
 .botton-section {
     background-color: #004047;
